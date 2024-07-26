@@ -1,0 +1,9 @@
+.Quadrado {
+  display: flex;
+  justify-content: center;
+}
+
+body{
+  background-image: url('C:\Users\EnzoLopez\Pictures\photo-1519389950473-47ba0277781c 1.png');
+  font-family: 'Jost';
+}
