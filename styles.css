@@ -40,6 +40,11 @@ body {
   opacity: 60%;
 }
 
+form {
+  position:relative;
+  left: 100px;
+}
+
 .forget {
   text-decoration: underline;
   opacity: 60%;
@@ -50,7 +55,3 @@ body {
   opacity: 60%;
 }
 
-form {
-  position:relative;
-  left: 100px;
-}
