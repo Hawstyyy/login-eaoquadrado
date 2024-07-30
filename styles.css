@@ -40,6 +40,16 @@ body {
   opacity: 60%;
 }
 
+.forget {
+  text-decoration: underline;
+  opacity: 60%;
+}
+
+.cadastro {
+  text-decoration: underline;
+  opacity: 60%;
+}
+
 form {
   position:relative;
   left: 100px;
