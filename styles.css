@@ -12,8 +12,6 @@ body {
   margin: 20px;
   margin-left: auto;
   margin-right: auto;
-  right: 0%;
-  left:0%;
   height: 625px;
   width: 515px;
   border-radius: 15px;
@@ -21,15 +19,12 @@ body {
 }
 
 .logo {
+  margin-top: 20px;
   margin-bottom: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0%;
-  right: 0%;
+  margin-left: 200px;
 }
 
 h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 20px;
+  margin-left: 125px;
 }
