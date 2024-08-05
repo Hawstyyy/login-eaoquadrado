@@ -1,4 +1,7 @@
 body {
+  display:flex;
+  justify-content: center;
+  align-items: center;
   background-color:black ;
   font-family: 'Jost';
   background-position: fixed;
@@ -10,39 +13,39 @@ body {
 }
 
 .quadrado {
-  position: fixed;
-  margin: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  right: 0%;
-  left:0%;
-  height: 825px;
-  width: 715px;
+  height: 600px;
+  width: 500px;
+  max-height: 825px;
+  max-width: 715px;
   border-radius: 15px;
   background-color: #E8F1F2;
 }
 
 .logo {
-  margin-top: 30px;
-  margin-left: 300px;
-  left: 0%;
-  right: 0%;
+  margin-left: 40%;
 }
 
 .Bem-vindo {
-  position: relative;
-  left: 230px;
+  margin-left: 25%;
 }
 
 .credenciais {
-  position: relative;
-  left: 300px;
+  margin-left: 40%;
   opacity: 60%;
 }
 
-form {
-  position:relative;
-  left: 100px;
+.email{
+  width: 50%;
+  height: 50%;
+  max-width: 500px;
+  max-height: 300px;
+}
+
+.senha {
+  width: 50%;
+  height: 50%;
+  max-width: 500px;
+  max-height: 300px;
 }
 
 .forget {
