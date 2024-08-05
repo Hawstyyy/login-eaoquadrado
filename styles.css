@@ -49,6 +49,7 @@ body {
 }
 
 .email{
+  border: 0;
   width: 300px;
   height: 20px;
   max-width: 500px;
@@ -56,6 +57,7 @@ body {
 }
 
 .senha {
+  border: 0;
   width: 300px;
   height: 20px;
   max-width: 500px;
@@ -63,16 +65,23 @@ body {
 }
 
 .forget {
+  margin: 0;
   text-decoration: underline;
   opacity: 60%;
+  cursor: pointer;
 }
 
 .cadastro {
+  cursor: pointer;
+  margin: 0;
+  margin-bottom: 20px;
   text-decoration: underline;
   opacity: 60%;
 }
 
 .Entrar {
+  cursor: pointer;
+  border: 0;
   font-family: 'Jost';
   font-weight: 400;
   font-size: 28px;
