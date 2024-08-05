@@ -1,3 +1,13 @@
+input{
+  border-color: black;
+  border-radius: 5px;
+  margin: 0px;
+}
+
+label {
+  margin: 0;
+}
+
 body {
   display:flex;
   justify-content: center;
@@ -9,7 +19,7 @@ body {
   background-size: cover;
   min-height: 100vh;
   margin: 0;
-  background-color: #f0f0f0;
+  background-color: black;
 }
 
 .quadrado {
@@ -29,20 +39,25 @@ body {
   margin: 0;
 }
 
+.Bem-vindo{
+  margin: 0;
+}
+
 .credenciais {
+  margin: 0;
   opacity: 60%;
 }
 
 .email{
-  width: 50%;
-  height: 50%;
+  width: 300px;
+  height: 20px;
   max-width: 500px;
   max-height: 300px;
 }
 
 .senha {
-  width: 50%;
-  height: 50%;
+  width: 300px;
+  height: 20px;
   max-width: 500px;
   max-height: 300px;
 }
@@ -57,3 +72,13 @@ body {
   opacity: 60%;
 }
 
+.Entrar {
+  font-family: 'Jost';
+  font-weight: 400;
+  font-size: 28px;
+  color: white;
+  width: 130px;
+  height: 50px;
+  border-radius: 10px;
+  background: #2075C2;
+}
