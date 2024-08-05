@@ -49,6 +49,7 @@ body {
 }
 
 .email{
+  border: 0;
   width: 300px;
   height: 20px;
   max-width: 500px;
@@ -56,6 +57,7 @@ body {
 }
 
 .senha {
+  border: 0;
   width: 300px;
   height: 20px;
   max-width: 500px;
@@ -73,6 +75,7 @@ body {
 }
 
 .Entrar {
+  border: 0;
   font-family: 'Jost';
   font-weight: 400;
   font-size: 28px;
