@@ -13,6 +13,9 @@ body {
 }
 
 .quadrado {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   height: 600px;
   width: 500px;
   max-height: 825px;
@@ -22,15 +25,11 @@ body {
 }
 
 .logo {
-  margin-left: 40%;
-}
-
-.Bem-vindo {
-  margin-left: 25%;
+  padding-top: 5%;
+  margin: 0;
 }
 
 .credenciais {
-  margin-left: 40%;
   opacity: 60%;
 }
 
