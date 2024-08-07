@@ -79,7 +79,8 @@ body {
   opacity: 60%;
 }
 
-.Entrar {
+.entrar {
+  margin-left: 80px;
   cursor: pointer;
   border: 0;
   font-family: 'Jost';
