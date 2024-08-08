@@ -1,0 +1,25 @@
+body {
+  font-family: 'Jost';
+  display: flex;
+  justify-content: center;
+}
+
+.quadrado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E8F1F2;
+  height: 600px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.Bem-vindo {
+  align-self: flex-start;
+}
+
+.logo {
+  align-self: flex-start;
+  flex-direction: column;
+  padding-top: 1em;
+}
