@@ -7,19 +7,25 @@ body {
 .quadrado {
   display: flex;
   align-items: center;
-  justify-content: center;
+  flex-direction: column;
   background-color: #E8F1F2;
   height: 600px;
   width: 500px;
   border-radius: 10px;
 }
 
-.Bem-vindo {
-  align-self: flex-start;
-}
-
 .logo {
-  align-self: flex-start;
   flex-direction: column;
   padding-top: 1em;
+}
+
+.Bem-vindo {
+  margin: 0;
+  padding-top: 0.5em;
+}
+
+.separador {
+  width: 3px;
+  height: 555px;
+  background: #1B98E0;
 }
