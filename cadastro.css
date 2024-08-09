@@ -15,7 +15,6 @@ body {
 }
 
 .logo {
-  flex-direction: column;
   padding-top: 1em;
 }
 
@@ -25,6 +24,7 @@ body {
 }
 
 .separador {
+  transform: rotate(90deg);
   width: 3px;
   height: 555px;
   background: #1B98E0;
