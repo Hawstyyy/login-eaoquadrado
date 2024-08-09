@@ -82,7 +82,7 @@ body {
 }
 
 .entrar {
-  margin-left: 85px;
+  margin-left: 110px;
   cursor: pointer;
   border: 0;
   font-family: 'Jost';
@@ -93,4 +93,8 @@ body {
   height: 50px;
   border-radius: 10px;
   background: #2075C2;
+}
+
+.btn {
+  padding: 5px 20px 5px;
 }
