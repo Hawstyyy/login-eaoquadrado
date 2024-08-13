@@ -16,6 +16,7 @@ body {
 
 .logo {
   padding-top: 1em;
+  margin: 0ç
 }
 
 .Bem-vindo {
@@ -23,9 +24,3 @@ body {
   padding-top: 0.5em;
 }
 
-.separador {
-  transform: rotate(90deg);
-  width: 3px;
-  height: 555px;
-  background: #1B98E0;
-}
