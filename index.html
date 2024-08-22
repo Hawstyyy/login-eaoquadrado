@@ -10,11 +10,30 @@
   <link rel="stylesheet" href="./inicio/styles.css">
 </head>
 <body background="assets/fundo.png">
+  
   <div class="quadrado">
+
     <img src="assets/logo.svg" class="logo">
     <div class="text">
-      <h1>Bem vindo!</h1>
+      <h1 class="bemvindo">Bem vindo!</h1>
+      <p class="credenciais">Insira suas credenciais</p>
+    </div>
+
+    <form>
+      <label for="email"><p>E-mail:</label><br>
+      <input type="text" id="email" name="email" class="email"><br>
+      <label for="senha"><p>Senha:</label><br>
+      <input type="password" id="senha" name="senha" class="senha">
+    </form>
+
+    <div class="cadastro_div">
+      <p class="senha_forget">Esqueci minha senha</p>
+      <a href="cadastro.html"><p class="cadastro">Fazer cadastro</p></a>
+    </div>
+    <div class="entrar_div">
+    <button class="entrar">Entrar</button>
     </div>
   </div>
+  
 </body>
 </html>
