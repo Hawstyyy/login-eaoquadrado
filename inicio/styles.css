@@ -1,100 +1,26 @@
-input{
-  border-color: black;
-  margin: 0px;
-  padding: 5px;
-}
-
-label {
-  margin: 0;
-}
-
 body {
   display:flex;
   justify-content: center;
   align-items: center;
-  background-color:black ;
-  font-family: 'Jost';
-  background-position: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
-  margin: 0;
-  background-color: black;
+  font-family: "Jost", sans-serif;
 }
 
 .quadrado {
   display: flex;
-  align-items: center;
   flex-direction: column;
-  height: 600px;
+  justify-content: center;
+  align-items: center;
+  background-color: #E8F1F2;
+  height: 580px;
   width: 500px;
   max-height: 825px;
   max-width: 715px;
-  border-radius: 10px;
-  background-color: #E8F1F2;
+  border-radius: 20px;
 }
 
 .logo {
-  padding-top: 3em;
-  padding-bottom: 1em;
-  margin: 0;
-}
-
-.Bem-vindo{
-  margin: 0;
-}
-
-.credenciais {
-  margin: 0;
-  opacity: 60%;
-}
-
-.email{
-  border: 0;
-  width: 300px;
-  height: 20px;
-  max-width: 500px;
-  max-height: 300px;
-}
-
-.senha {
-  border: 0;
-  width: 300px;
-  height: 20px;
-  max-width: 500px;
-  max-height: 300px;
-}
-
-.forget {
-  margin: 0;
-  text-decoration: underline;
-  opacity: 60%;
-  cursor: pointer;
-}
-
-.cadastro {
-  cursor: pointer;
-  margin: 0;
-  margin-bottom: 20px;
-  text-decoration: underline;
-  opacity: 60%;
-}
-
-.entrar {
-  margin-left: 110px;
-  cursor: pointer;
-  border: 0;
-  font-family: 'Jost';
-  font-weight: 400;
-  font-size: 28px;
-  color: white;
-  width: 130px;
-  height: 50px;
-  border-radius: 10px;
-  background: #2075C2;
-  text-decoration: none;
-}
-
-.btn {
-  padding: 5px 20px 5px;
+  height: 64px;
+  width: 64px;
 }
