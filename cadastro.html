@@ -1,34 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-  <link rel="stylesheet" href="./cadastro/cadastro.css">
-  <link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>E ao Quadrado</title>
-  <link href='https://fonts.googleapis.com/css?family=Jost' rel='stylesheet'>
-</head>
-
-<body background="./assets/fundo.png">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E ao quadrado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./cadastro/cadastro.css">
+    <link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
+  </head>
+<body background="assets/fundo.png">
   <div class="quadrado">
-    <img src="./assets/logo.svg" class="logo">
-    <h1 class="Bem-vindo">Bem-vindo</h1>
-    <h6 class="cadastro">Cadastre suas credenciais</h6>
 
-    <form>
-      <label for="usuario"><h4>Nome de usuário:</label><br>
-      <input type="text" id="usuario" name="usuario" class="usuario"><br>
-      <label for="email"><h4>E-mail:</label><br>
-      <input type="text" id="email" name="email" class="email"><br>
-      <label for="senha"><h4>Senha:</label><br>
-      <input type="password" id="senha" name="senha" class="senha">
-      <label for="senha"><h4>Confirmar senha:</label><br>
-      <input type="password" id="senha" name="senha" class="senha">
-    </form>
+    <img src="assets/logo.svg" class="logo">
+    
+    <div class="text">
+      <h1 class="bemvindo">Bem vindo!</h1>
+      <p class="credenciais">Insira suas credenciais</p>
+    </div>
 
-    <button class="entrar">Entrar</button>
   </div>
 </body>
-
 </html>
